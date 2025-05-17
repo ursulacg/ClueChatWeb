@@ -1,9 +1,98 @@
-<html>
-  <head>
-    <title>ClueChat</title>
-  </head>
-  <body>
-    <img src="images/logo.PNG" alt="Logo ClueChat" width="150" />
-    <h1>Gracias por visitar la web!!</h1>
-  </body>
-</html>
+<html lang="es"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClueChat</title>
+  <style>
+    :root {
+      --rojo-claro: #ffdddd;
+      --blanco: #ffffff;
+      --negro: #000000;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--rojo-claro);
+      color: var(--negro);
+    }
+
+    header {
+      background-color: var(--blanco);
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .logo {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      width: auto;
+      height: 20%;
+      padding: 15px;
+    }
+
+    section {
+      background-color: var(--blanco);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ClueChat</h1>
+  </header>
+
+  <main>
+    <div class="logo">
+      <img src="images/logo.PNG" alt="Logo ClueChat" width="150" />
+    </div>
+    
+    <section>
+      <h2>¿Qué es ClueChat?</h2>
+      <p>
+        ClueChat es una aplicación para resolver misterios en grupo. Crea o únete a una sala, debate con tus amigos en el chat y colaboren para encontrar al culpable.
+      </p>
+    </section>
+
+    <section style="margin-top: 2rem;">
+      <h2>Ayuda y Preguntas Frecuentes</h2>
+      <ul>
+        <li><strong>¿Cómo creo una sala?</strong> Desde la app, pulsa “Crear sala” y comparte el código con tus amigos.</li>
+        <li><strong>¿Qué pasa si cierro la app?</strong> Tu usuario se elimina automáticamente y deberás volver a unirte.</li>
+        <li><strong>¿Se guarda mi progreso?</strong> No. La app está diseñada para partidas rápidas sin guardado de datos.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 ClueChat. Esta web solo contiene información de ayuda para la app.
+  </footer>
+
+
+</body></html>
